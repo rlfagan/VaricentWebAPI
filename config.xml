@@ -1,0 +1,23 @@
+<config>
+    <Login>
+        <LoginURL>https://t-mobileindirect.varicentcloud.com/</LoginURL>
+        <User>FJiang1</User>
+        <Password>Jf800526xin,.</Password>
+    </Login>
+    <DatabaseSetting>
+        <Server>DEVDSACSX001</Server>
+        <Database>FanJiang</Database>
+    </DatabaseSetting>
+    <DownloadLists>
+        <DownloadItem>
+            <Name>ScheduleItem</Name>
+            <URL>https://t-mobileindirect.varicentcloud.com/SSO/ts/api/webreport/downloadCSV.html?ReportID=ScheduleItem&amp;delimiter=|</URL>
+            <TableName>ScheduleItem_DCS</TableName>
+        </DownloadItem>
+        <DownloadItem>
+            <Name>LogComputation</Name>
+            <URL>https://t-mobileindirect.varicentcloud.com/SSO/ts/api/webreport/downloadCSV.html?ReportID=LogComputation&amp;delimiter=|</URL>
+            <TableName>LogComputation_DCS</TableName>
+        </DownloadItem>
+    </DownloadLists>
+</config>
